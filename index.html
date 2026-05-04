@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOOCAKE Confeitaria - Doces Artesanais Feitos com Carinho</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ==================== HEADER FIXO COM NAVEGAÇÃO ==================== -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <h1>MOOCAKE</h1>
+                <p class="logo-subtitle">Confeitaria</p>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#produtos" class="nav-link">Produtos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ==================== SEÇÃO HERO (INTRODUÇÃO) ==================== -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Doces que tocam o coração</h1>
+            <p class="hero-subtitle">Confeitaria artesanal feita com carinho e ingredientes selecionados</p>
+            <button class="cta-button" onclick="scrollToSection('contato')">Faça seu pedido</button>
+        </div>
+    </section>
+
+    <!-- ==================== SEÇÃO 1: SOBRE NÓS ==================== -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre a MOOCAKE</h2>
+            
+            <div class="sobre-content">
+                <!-- Imagem da fundadora -->
+                <div class="sobre-imagem">
+                    <img src="img/img.jpeg" alt="" class="founder-image">
+                </div>
+                
+                <!-- Texto institucional -->
+                <div class="sobre-texto">
+                    <h3>Uma história de paixão por doces</h3>
+                    <p>
+                        A MOOCAKE Confeitaria nasceu do amor por criar momentos doces e memoráveis. 
+                        Cada receita é desenvolvida com dedicação, utilizando apenas ingredientes selecionados 
+                        e de alta qualidade.
+                    </p>
+                    <p>
+                        Acreditamos que um doce artesanal vai além do sabor! É uma experiência sensorial 
+                        que expressa carinho e atenção aos detalhes. Desde a escolha do cacau premium até 
+                        o acabamento delicado, cada etapa reflete nosso compromisso com a excelência.
+                    </p>
+                    <p>
+                        Nossa missão é transformar matérias-primas nobres em criações que trazem alegria 
+                        e sofisticação para os momentos especiais de nossos clientes.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <strong>100% Artesanal</strong>
+                            <p>Feito à mão</p>
+                        </div>
+                        <div class="highlight-item">
+                            <strong>Ingredientes Premium</strong>
+                            <p>Selecionados com cuidado</p>
+                        </div>
+                        <div class="highlight-item">
+                            <strong>Feito com Carinho</strong>
+                            <p>Cada doce é especial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SEÇÃO 2: NOSSOS PRODUTOS ==================== -->
+    <section id="produtos" class="produtos">
+        <div class="container">
+            <h2 class="section-title">Nossos Produtos</h2>
+            <p class="section-description">Conheça alguns de nossos doces artesanais</p>
+            
+            <div class="galeria-produtos">
+                <!-- Produto 1 -->
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <img src="img/Cake4.jpeg" alt="Ovos de páscoa gourmet">
+                        <div class="produto-overlay">
+                            <p>Ovos de Páscoa Gourmet</p>
+                        </div>
+                    </div>
+                    <h3>Ovos de Páscoa Gourmet</h3>
+                </div>
+
+                <!-- Produto 2 -->
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <img src="img/Cake1.jpeg" alt="Copo com morango e brownie">
+                        <div class="produto-overlay">
+                            <p>Pavê de Kinder</p>
+                        </div>
+                    </div>
+                    <h3>Pavê de Kinder</h3>
+                </div>
+
+                <!-- Produto 3 -->
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <img src="img/Cake2.jpeg" alt="Brownie com maracujá">
+                        <div class="produto-overlay">
+                            <p>Brownie com Maracujá</p>
+                        </div>
+                    </div>
+                    <h3>Brownie com Maracujá</h3>
+                </div>
+
+                <!-- Produto 4 -->
+                <div class="produto-card">
+                    <div class="produto-imagem">
+                        <img src="img/Cake3.jpeg" alt="Brownie com kinder e ninho">
+                        <div class="produto-overlay">
+                            <p>Brownie com Kinder e Ninho</p>
+                        </div>
+                    </div>
+                    <h3>Brownie com Kinder e Ninho</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SEÇÃO 3: CONTATO E ENCOMENDAS ==================== -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Faça sua Encomenda</h2>
+            <p class="section-description">Entre em contato conosco para solicitar seus doces!</p>
+            
+            <div class="contato-content">
+                <!-- Textos e botão WhatsApp -->
+                <div class="contato-info">
+                    <h3>Vamos conversar sobre seu pedido?</h3>
+                    <p>
+                        Preparamos doces especiais para seus momentos mais importantes. 
+                        Aceitamos encomendas personalizadas para datas especiais, eventos corporativos 
+                        e celebrações.
+                    </p>
+                    <p>
+                        Entre em contato conosco através do WhatsApp e descubra as possibilidades 
+                        de sabores!
+                    </p>
+                    <a href="https://wa.me/5531983195763" class="whatsapp-button" target="_blank">
+                        <span>💬 Contato via WhatsApp</span>
+                    </a>
+                </div>
+
+                <!-- Formulário de contato -->
+                <div class="contato-form">
+                    <form id="formContato" class="form">
+                        <!-- Campo: Nome -->
+                        <div class="form-group">
+                            <label for="nome">Nome:</label>
+                            <input 
+                                type="text" 
+                                id="nome" 
+                                name="nome" 
+                                placeholder="Seu nome completo"
+                                required
+                            >
+                        </div>
+
+                        <!-- Campo: Telefone -->
+                        <div class="form-group">
+                            <label for="telefone">Telefone/WhatsApp:</label>
+                            <input 
+                                type="tel" 
+                                id="telefone" 
+                                name="telefone" 
+                                placeholder="(11) 99999-9999"
+                                required
+                            >
+                        </div>
+
+                        <!-- Campo: Mensagem -->
+                        <div class="form-group">
+                            <label for="mensagem">Sua mensagem:</label>
+                            <textarea 
+                                id="mensagem" 
+                                name="mensagem" 
+                                placeholder="Descreva seu pedido com detalhes..."
+                                rows="6"
+                                required
+                            ></textarea>
+                        </div>
+
+                        <!-- Botão de envio -->
+                        <button type="submit" class="submit-button">Enviar Pedido</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>MOOCAKE Confeitaria</h3>
+                <p>Feito com carinho por João ❤️</p>
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2026 MOOCAKE Confeitaria. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
